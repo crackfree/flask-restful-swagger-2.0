@@ -90,7 +90,7 @@ class UserItemResource(Resource):
      })
     def get(self, user_id):
         # Do some processing
-        return UserModel(id=1, name='somebody'}), 200  # generates json response {"id": 1, "name": "somebody"}
+        return UserModel(id=1, name='somebody'), 200  # generates json response {"id": 1, "name": "somebody"}
 
 ```
 
